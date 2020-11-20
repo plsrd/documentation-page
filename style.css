@@ -1,5 +1,7 @@
 body {
     max-width: 100%;
+    background-color: #4361ee;
+    color: #4cc9f0;
 }
 #table {
     font-family: 'Karla', sans-serif;
@@ -14,21 +16,30 @@ nav div {
     flex-direction: column;
     flex-grow: 1;
     width: 300px;
+    color: #f72585;
+
 }
 
 nav header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.7em;
-    border-bottom: 1px solid black;
-    text-align: center;
+    background-color: #3a0ca3;
+    margin: .3em;
     padding: 1em;
+    border-radius: 1em;
+}
+
+a {
+    color: #f72585;
 }
 
 nav a {
-    border-bottom: 1px solid black;
+    background-color: #3a0ca3;
     text-decoration: none;
     font-size: 1.2em;
     padding: 1em;
+    margin: .3em;
+    border-radius: 1em;
 }
 
 #last-link {
@@ -41,8 +52,7 @@ nav a {
 }
 
 main {
-    border-left: 2px solid black;
-    padding: .5em 2em;
+    padding: 1.5em 2em;
     padding-bottom: 300px;
     max-width: 850px;
 }
@@ -50,7 +60,11 @@ main {
 main header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.7em;
-    margin: 1em auto;
+    margin: .5em auto;
+    color: #f72585;
+    background-color: #3a0ca3;
+    border-radius: .5em;
+    padding: .5em;
 }
 
 main p {
@@ -59,14 +73,20 @@ main p {
     line-height: 1.5em;
 }
 
+a:hover {
+    background-color: #4cc9f0;
+    color: #4361ee;
+}
+
 main a {
     text-decoration: none;
 }
 
 code {
-    background-color: silver;
+    background-color:#3a0ca3;
     padding: .1em .3em;
-    font-weight: 100;
+    color: #f72585;
+    border-radius: .5em;
 }
 
 .img-box {
