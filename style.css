@@ -1,0 +1,158 @@
+body {
+    max-width: 100%;
+}
+#table {
+    font-family: 'Karla', sans-serif;
+    display: flex; 
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+}
+
+nav div {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 300px;
+}
+
+nav header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7em;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+#last-link {
+    border: none;
+
+}
+
+.padding {
+    padding: 0 150px;
+}
+
+main {
+    border-left: 2px solid black;
+    padding: .5em 2em;
+    padding-bottom: 300px;
+    max-width: 850px;
+}
+
+main header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7em;
+    margin: 1em auto;
+}
+
+main p {
+    padding: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+main a {
+    text-decoration: none;
+}
+
+code {
+    background-color: silver;
+    padding: .1em .3em;
+    font-weight: 100;
+}
+
+.img-box {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.img-box div {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.caption {
+    font-size: .8em;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.centered-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+}
+
+.short {
+}
+
+.lg-img {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 950px) {
+    nav {
+        font-size: .8em;
+    }
+
+    nav div {
+        width: 200px;
+    }
+
+    main {
+        box-sizing: border-box;
+        padding: .8em;
+    }
+
+    .padding {
+        padding: 0 100px;
+    }
+    main header {
+        font-size: 1.2em;
+    }
+
+    main p {
+        font-size: .8em;
+    }
+
+    img {
+        display: none;
+    }
+
+    .centered-img {
+        display: none;
+    }
+
+    .caption {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: .6em;
+    }
+
+    nav div {
+        width: 120px;
+    }
+
+    .padding {
+        padding: 0 60px;
+   
+}
