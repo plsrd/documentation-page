@@ -60,9 +60,9 @@ main {
 main header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.7em;
-    margin: .5em auto;
-    color: #f72585;
+    margin: 1em auto;
     background-color: #3a0ca3;
+    color: #f72585;
     border-radius: .5em;
     padding: .5em;
 }
@@ -80,6 +80,10 @@ a:hover {
 
 main a {
     text-decoration: none;
+    background-color:#3a0ca3;
+    padding: .1em .3em;
+    color: #f72585;
+    border-radius: .5em;
 }
 
 code {
@@ -93,6 +97,7 @@ code {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    margin-top:.5em;
 }
 
 .img-box div {
@@ -109,6 +114,10 @@ code {
 h1 {
     font-size: 1.5em;
     margin: 1em;
+    background-color:#3a0ca3;
+    padding: .1em .3em;
+    color: #f72585;
+    border-radius: .5em;
 }
 
 .centered-img {
